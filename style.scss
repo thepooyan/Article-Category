@@ -31,4 +31,10 @@ a {
     --border-radius: 30px;
 }
 
+.cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+}
+
 @import 'components/ArticleCate';
