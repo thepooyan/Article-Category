@@ -101,16 +101,16 @@ $(function () {
 
     switch (Math.floor(leng/10)) {
       case 0:
-        item.style.fontSize = 36 + 'px';
+        item.style.fontSize = 1.6 + 'em';
         break;
       case 1:
-        item.style.fontSize = 24 + 'px';
+        item.style.fontSize = 1.1 + 'em';
         break;
       case 2:
-        item.style.fontSize = 21 + 'px';
+        item.style.fontSize = .9 + 'em';
         break;
       case 3:
-        item.style.fontSize = 18 + 'px';
+        item.style.fontSize = .8 + 'em';
         break;
     }
 
