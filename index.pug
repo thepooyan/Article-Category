@@ -1,3 +1,4 @@
+include components/ArticleCate
 doctype html
 html(lang="en")
     head
@@ -12,7 +13,7 @@ html(lang="en")
 
     body
         .cont
-            include components/ArticleCate
-            include components/ArticleCate
-            include components/ArticleCate
-            include components/ArticleCate
+            +cate('seo', "#129DB2","Content/images/articleCate/bootstrap.png")
+            +cate('Knockout', "#E32D23","Content/images/articleCate/docker.png")
+            +cate('Design Pattern', "#8A9DB7","Content/images/articleCate/docker.png")
+            +cate('آموزش نصب Visual Studio', '#682178', "Content/images/articleCate/bootstrap.png")

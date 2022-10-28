@@ -1,3 +1,6 @@
-.ArticleCate(style="background-color: #629ED5")
-    p
-        span زبانهای برنامه نویسی
+mixin cate(title, color, icon)
+    .ArticleCate(style=`background-color: ${color}`)
+        .text
+            .aligner 
+                span=title
+        img(src=icon)
