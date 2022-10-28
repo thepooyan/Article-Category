@@ -94,4 +94,25 @@ $(function () {
       });
     }
   });
+
+  dc.queries('.ArticleCate span').forEach(item=>{
+    let leng = item.innerHTML.length;
+    console.log(`leng ${leng}`)
+
+    switch (Math.floor(leng/10)) {
+      case 0:
+        item.style.fontSize = 36 + 'px';
+        break;
+      case 1:
+        item.style.fontSize = 24 + 'px';
+        break;
+      case 2:
+        item.style.fontSize = 21 + 'px';
+        break;
+      case 3:
+        item.style.fontSize = 18 + 'px';
+        break;
+    }
+
+  })
 })
